@@ -11,5 +11,6 @@ TodosDetailsController = RouteController.extend({
 
   action: function () {
     this.render();
+     this.layout('NoBreadcrumbs');
   }
 });
